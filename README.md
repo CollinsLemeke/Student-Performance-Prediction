@@ -75,7 +75,8 @@ Evaluate using accuracy score, classification report, confusion matrix
 Visualize results with Seaborn and Matplotlib
 
 
-# Run the notebook
+### Run the notebook
 jupyter notebook notebooks/Student_Performance_Prediction.ipynb
-🎯 Conclusion
+
+### Conclusion
 The model performs extremely well on the dataset, achieving high precision, recall, and F1-scores across both classes with minimal misclassifications.
