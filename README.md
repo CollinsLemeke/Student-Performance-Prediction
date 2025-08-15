@@ -1,13 +1,13 @@
-# Student-Performance-Prediction
+## Student-Performance-Prediction
 This project uses machine learning techniques to predict student performance based . It explores data preprocessing, feature engineering, model selection, and evaluation to build accurate and interpretable predictive models.
 
 This project applies machine learning techniques to predict student performance using a dataset of exam scores and related features. The workflow includes data preprocessing, handling class imbalance with SMOTE, feature scaling, training a Random Forest Classifier, and evaluating the model.
 
-Model Performance
+### Model Performance
 Accuracy
 The model achieved an accuracy of 0.99 — correctly predicting 99% of the instances in the testing set.
 
-Classification Report
+### Classification Report
 Class	Precision	Recall	F1-score	Support
 0	0.98	1.00	0.99	64
 1	1.00	0.97	0.99	36
@@ -28,7 +28,7 @@ F1-score:
 
 Both classes: 0.99
 
-Confusion Matrix
+### Confusion Matrix
 lua
 Copy
 Edit
@@ -42,7 +42,7 @@ False Positives: 0
 
 False Negatives: 1
 
-⚙️ Libraries Used
+### Libraries Used
 
 import pandas as pd
 import numpy as np
@@ -54,12 +54,12 @@ from sklearn.metrics import confusion_matrix, accuracy_score, classification_rep
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-Dataset
+### Dataset
 Source: student_exam_data.csv (Kaggle dataset)
 
 The dataset contains exam scores and student attributes used to predict performance classification.
 
-📝 Workflow
+### Workflow
 Load dataset using Pandas
 
 Split data into training and testing sets
